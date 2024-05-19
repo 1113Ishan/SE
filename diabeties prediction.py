@@ -50,3 +50,4 @@ new_data = np.array([
 new_data_scaled= scaler.transform(new_data)
 predictions = model.predict(new_data_scaled)
 print("Outcome: ", predictions[0])
+#Changes
